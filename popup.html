@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Help Me Study <img src="icon.png" alt="Logo" style="height: 90px; float: right; margin-left: 10px;"></h1>
+  <div id="totalTime">Total Time Spent: 00:00:00</div>
+  <div>
+    <label for="siteInput">Enter site URL for notifications:</label>
+    <input type="text" id="siteInput" placeholder="e.g., https://example.com">
+    <button id="saveSite">Save</button>
+  </div>
+  <div>
+    <label for="intervalInput">Notification Interval (seconds):</label>
+    <input type="number" id="intervalInput" min="1" value="5">
+    <button id="saveInterval">Save</button>
+  </div>
+  <div id="tabs"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the title */
+  h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Logo image next to title */
+  h1 img {
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  /* Style for the form input fields */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the notification section */
+  #totalTime {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Tabs display container */
+  #tabs {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the individual tabs */
+  .tab {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .tab p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Active tab style */
+  .active-tab {
+    border: 2px solid #4CAF50;
+    background-color: #f9fff9;
+  }
+  
