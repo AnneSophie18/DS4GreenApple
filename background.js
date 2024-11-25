@@ -3,7 +3,7 @@ let currentTabId = null;
 let currentStartTime = null;
 let totalTime = 0;
 
-let notificationInterval = 10000; // Default interval
+let notificationInterval = 600000; // Default interval
 
 // Retrieve stored interval on startup
 chrome.storage.sync.get("notificationInterval", ({ notificationInterval: storedInterval }) => {
